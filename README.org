@@ -1,3 +1,7 @@
 * Helm Unicode
-A Helm source for inserting unicode characters by name. Useful to
-spice up your source code and communications with emoji 😜.
+
+  [[https://travis-ci.org/bomgar/helm-unicode][file:https://travis-ci.org/bomgar/helm-unicode.svg?branch=master]
+  [[http://melpa.org/#/play-routes-mode][file:http://melpa.org/packages/helm-unicode-badge.svg]]
+
+  A Helm source for inserting unicode characters by name. Useful to
+  spice up your source code and communications with emoji 😜.
