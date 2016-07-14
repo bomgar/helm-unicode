@@ -27,10 +27,10 @@
 (require 'helm-utils)
 
 (defvar helm-unicode-names nil
-  "Internal variable for unicode characters.")
+  "Internal cache variable for unicode characters. Should not be changed by the user")
 
 (defun helm-source-unicode ()
-  "Builds the helm Unicode source"
+  "Builds the helm Unicode source. Initializes the lookup cache if necessary."
   (unless helm-unicode-names
     (setq helm-unicode-names
           (sort (mapcar (lambda (char-pair)
