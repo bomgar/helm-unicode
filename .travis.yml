@@ -9,3 +9,4 @@ env:
 script:
   - cask install
   - cask build
+  - cask exec ert-runner
